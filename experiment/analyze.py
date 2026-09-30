@@ -1,5 +1,5 @@
 """Analysis of the saved raw outputs -> results/summary.json, results/tables/*.csv, results/figures/*.pdf.
-All numbers in the paper and poster come from these files."""
+All numbers on the poster come from these files."""
 import csv, glob, json, os
 import numpy as np
 from scipy import stats
@@ -79,7 +79,7 @@ for c in conds:
 
 json.dump(summary, open(os.path.join(RES, "summary.json"), "w", encoding="utf-8"), indent=2)
 
-# LaTeX macros with every experiment number used in the paper and poster (generated, never typed by hand).
+# LaTeX macros with every experiment number used on the poster (generated, never typed by hand).
 def pct(x): return f"{100 * x:.1f}\\,\\%"
 def pval(p): return "$p<0.001$" if p < 0.001 else f"$p={p:.3f}$"
 MAC = {"base_raw": "Base", "instruct_raw": "Inst", "instruct_chat": "Chat"}
@@ -157,7 +157,6 @@ def figure(path, w, h, fs, short, fs_min=None, upright=False):
     print("wrote", path)
 
 os.makedirs(os.path.join(RES, "figures"), exist_ok=True)
-figure(os.path.join(RES, "figures", "fig_crowd_paper.pdf"), 6.5, 3.2, 9, False, fs_min=7.5)
 figure(os.path.join(RES, "figures", "fig_crowd_poster.pdf"), 21.5, 5.3, 30, False, fs_min=26, upright=True)
 print(json.dumps({c: {k: summary["conditions"][c][k] for k in ("exact_rate", "exact_rate_ci95", "median_norm_iqr", "n_questions_iqr0")} for c in conds}, indent=1))
 print(json.dumps(summary["tests"], indent=1))
