@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{pdfpages}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    citecolor=blue!70!black,
+    urlcolor=blue!70!black
+}
+
+\providecommand{\declfile}{declaration/declaration_prefilled.pdf}
+% Public repository URL (same as on the poster). Replace the red text by the URL:
+% \newcommand{\repourl}{\url{https://github.com/<user>/<repo>}}
+\usepackage{xcolor}
+\newcommand{\repourl}{\url{https://github.com/ssowrabha249-coder/Simulating-Voices-and-Fabricating-Realities--Poster}}
+
+\title{\textbf{Appendix: Research Poster}\\[0.3cm]
+\Large Simulating Voices: Does Instruction Tuning Make a Simulated Crowd Hyper-Accurate?}
+
+\author{
+  \textbf{Sowrabha Somashekar} \\
+  Matriculation No.\ 1837734 \\
+  \texttt{s2sosoma@uni-trier.de} \\
+  M.Sc. Natural Language Processing \\
+  Universität Trier, Fachbereich II
+}
+
+\date{September 30, 2026}
+
+\begin{document}
+\maketitle
+
+\section{References}
+\label{sec:references}
+Complete list of the sources consulted for the poster. The poster cites them by author name. Literature numbers on the poster are taken from these publications (page and table references are given on the poster); experiment numbers come from the author's own experiment.
+
+\nocite{*}
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\vspace{1.5cm}
+
+\section{Use of Generative AI Tools}
+\label{sec:ai_declaration}
+The following generative AI tools were used while preparing the poster:
+\begin{itemize}
+    \item \textbf{Antigravity} (Google), an AI coding and writing assistant;
+    \item \textbf{Claude Code} (Anthropic), with the model Claude Opus 5.5.
+\end{itemize}
+They were used to help draft and rephrase text, to check references and the literature numbers against the original publications, to write and debug the experiment code (Python), and to produce the LaTeX layout, the diagram and the plot. The experiment data are outputs of the open Qwen2.5 models~\cite{qwen2024qwen25} produced by that code; all experiment numbers on the poster are computed by the analysis script from the saved raw outputs (code and outputs: \repourl). The author reviewed and edited all content and takes full responsibility for it.
+
+\newpage
+\pagestyle{empty}
+% Append the official declaration of academic integrity
+\IfFileExists{\declfile}{%
+    \includepdf[pages=1,fitpaper]{\declfile}%
+}{%
+    \begin{center}
+        \vspace*{5cm}
+        \Large \textbf{Declaration of Academic Integrity}\\[1cm]
+        \normalsize (Signed declaration form to be included in submission)
+    \end{center}
+}
+
+\end{document}
