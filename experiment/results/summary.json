@@ -1,0 +1,424 @@
+{
+  "conditions": {
+    "base_raw": {
+      "label": "0.5B base",
+      "per_question": {
+        "q01": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 79.5,
+          "iqr": 275.0,
+          "norm_iqr": 1.3349514563106797,
+          "exact_rate": 0.04,
+          "median_abs_rel_error": 0.9029126213592233
+        },
+        "q02": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 300.5,
+          "iqr": 742.25,
+          "norm_iqr": 1.124621212121212,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.6636363636363636
+        },
+        "q03": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 196.0,
+          "iqr": 356.25,
+          "norm_iqr": 1.6804245283018868,
+          "exact_rate": 0.1,
+          "median_abs_rel_error": 0.7264150943396226
+        },
+        "q04": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 311.5,
+          "iqr": 4669.0,
+          "norm_iqr": 6.796215429403202,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9818049490538574
+        },
+        "q05": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 496.5,
+          "iqr": 4200.75,
+          "norm_iqr": 12.247084548104956,
+          "exact_rate": 0.02,
+          "median_abs_rel_error": 1.0
+        },
+        "q06": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 10.5,
+          "iqr": 18.25,
+          "norm_iqr": 0.7604166666666666,
+          "exact_rate": 0.04,
+          "median_abs_rel_error": 0.75
+        },
+        "q07": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 319.0,
+          "iqr": 917.75,
+          "norm_iqr": 0.862546992481203,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.7969924812030076
+        },
+        "q08": {
+          "n": 50,
+          "n_valid": 47,
+          "parse_rate": 0.94,
+          "median": 709.0,
+          "iqr": 140510635.5,
+          "norm_iqr": 0.4686930299627484,
+          "exact_rate": 0.19148936170212766,
+          "median_abs_rel_error": 0.9999977651205622
+        },
+        "q09": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 34.5,
+          "iqr": 432.75,
+          "norm_iqr": 4.917613636363637,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9431818181818182
+        },
+        "q10": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 24.5,
+          "iqr": 72.25,
+          "norm_iqr": 0.9262820512820513,
+          "exact_rate": 0.02,
+          "median_abs_rel_error": 0.8461538461538461
+        }
+      },
+      "exact_rate": 0.04024144869215292,
+      "exact_rate_ci95": [
+        0.02414486921529175,
+        0.05835010060362173
+      ],
+      "n_exact": 20,
+      "n_valid": 497,
+      "median_norm_iqr": 1.2297863342159459,
+      "n_questions_iqr0": 0,
+      "median_abs_rel_error": 0.8745332337565348,
+      "median_norm_iqr_q01_q05": 1.6804245283018868
+    },
+    "instruct_raw": {
+      "label": "0.5B instruct",
+      "per_question": {
+        "q01": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 131.0,
+          "iqr": 442.5,
+          "norm_iqr": 2.1480582524271843,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9344660194174758
+        },
+        "q02": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 433.5,
+          "iqr": 4471.75,
+          "norm_iqr": 6.775378787878788,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.7984848484848486
+        },
+        "q03": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 250.5,
+          "iqr": 366.25,
+          "norm_iqr": 1.7275943396226414,
+          "exact_rate": 0.04,
+          "median_abs_rel_error": 0.7688679245283019
+        },
+        "q04": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 215.5,
+          "iqr": 4561.0,
+          "norm_iqr": 6.63901018922853,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9657933042212519
+        },
+        "q05": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 1414.5,
+          "iqr": 43517.0,
+          "norm_iqr": 126.87172011661808,
+          "exact_rate": 0.02,
+          "median_abs_rel_error": 3.1239067055393583
+        },
+        "q06": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 15.5,
+          "iqr": 33.0,
+          "norm_iqr": 1.375,
+          "exact_rate": 0.02,
+          "median_abs_rel_error": 0.6458333333333333
+        },
+        "q07": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 722.0,
+          "iqr": 4712.5,
+          "norm_iqr": 4.429041353383458,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.8458646616541353
+        },
+        "q08": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 46741.5,
+          "iqr": 8074832.75,
+          "norm_iqr": 0.026934742801301557,
+          "exact_rate": 0.06,
+          "median_abs_rel_error": 0.9998920152954616
+        },
+        "q09": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 59.5,
+          "iqr": 720.75,
+          "norm_iqr": 8.190340909090908,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9318181818181819
+        },
+        "q10": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 25.5,
+          "iqr": 1057.0,
+          "norm_iqr": 13.551282051282051,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.8974358974358975
+        }
+      },
+      "exact_rate": 0.014,
+      "exact_rate_ci95": [
+        0.004,
+        0.026
+      ],
+      "n_exact": 7,
+      "n_valid": 500,
+      "median_norm_iqr": 5.534025771305994,
+      "n_questions_iqr0": 0,
+      "median_abs_rel_error": 0.9146270396270397,
+      "median_norm_iqr_q01_q05": 6.63901018922853
+    },
+    "instruct_chat": {
+      "label": "0.5B instruct (chat)",
+      "per_question": {
+        "q01": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 24.0,
+          "iqr": 10.0,
+          "norm_iqr": 0.04854368932038835,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.8859223300970874
+        },
+        "q02": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 284.0,
+          "iqr": 614.5,
+          "norm_iqr": 0.931060606060606,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.6303030303030304
+        },
+        "q03": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 120.0,
+          "iqr": 173.0,
+          "norm_iqr": 0.8160377358490566,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.5283018867924528
+        },
+        "q04": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 31.0,
+          "iqr": 59.25,
+          "norm_iqr": 0.08624454148471616,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9548762736535662
+        },
+        "q05": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 340.0,
+          "iqr": 392.75,
+          "norm_iqr": 1.1450437317784257,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.1793002915451895
+        },
+        "q06": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 16.5,
+          "iqr": 12.75,
+          "norm_iqr": 0.53125,
+          "exact_rate": 0.1,
+          "median_abs_rel_error": 0.4375
+        },
+        "q07": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 748.5,
+          "iqr": 2940.25,
+          "norm_iqr": 2.763392857142857,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.7739661654135339
+        },
+        "q08": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 240.0,
+          "iqr": 297.0,
+          "norm_iqr": 9.906853627385117e-07,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.9999991994461715
+        },
+        "q09": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 12.0,
+          "iqr": 25.75,
+          "norm_iqr": 0.29261363636363635,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.8636363636363636
+        },
+        "q10": {
+          "n": 50,
+          "n_valid": 50,
+          "parse_rate": 1.0,
+          "median": 18.0,
+          "iqr": 11.0,
+          "norm_iqr": 0.14102564102564102,
+          "exact_rate": 0.0,
+          "median_abs_rel_error": 0.7692307692307693
+        }
+      },
+      "exact_rate": 0.01,
+      "exact_rate_ci95": [
+        0.002,
+        0.018
+      ],
+      "n_exact": 5,
+      "n_valid": 500,
+      "median_norm_iqr": 0.4119318181818182,
+      "n_questions_iqr0": 0,
+      "median_abs_rel_error": 0.7715984673221516,
+      "median_norm_iqr_q01_q05": 0.8160377358490566
+    }
+  },
+  "tests": {
+    "instruct_raw_vs_base_raw": {
+      "fisher_exact_rate": {
+        "table_[inst,base]x[exact,not]": [
+          [
+            7,
+            493
+          ],
+          [
+            20,
+            477
+          ]
+        ],
+        "odds_ratio": 0.3386409736308316,
+        "p": 0.01120461342299639
+      },
+      "wilcoxon_norm_iqr": {
+        "statistic": 5.0,
+        "p": 0.01953125,
+        "n_questions_lower_iqr_instruct": 2
+      }
+    },
+    "instruct_chat_vs_base_raw": {
+      "fisher_exact_rate": {
+        "table_[inst,base]x[exact,not]": [
+          [
+            5,
+            495
+          ],
+          [
+            20,
+            477
+          ]
+        ],
+        "odds_ratio": 0.2409090909090909,
+        "p": 0.0021540332073454174
+      },
+      "wilcoxon_norm_iqr": {
+        "statistic": 7.0,
+        "p": 0.037109375,
+        "n_questions_lower_iqr_instruct": 9
+      }
+    }
+  },
+  "human": {
+    "q01": {
+      "median": 190,
+      "iqr": 108,
+      "norm_iqr": 0.5242718446601942
+    },
+    "q02": {
+      "median": 240,
+      "iqr": 532,
+      "norm_iqr": 0.806060606060606
+    },
+    "q03": {
+      "median": 200,
+      "iqr": 195,
+      "norm_iqr": 0.9198113207547169
+    },
+    "q04": {
+      "median": 365,
+      "iqr": 376,
+      "norm_iqr": 0.5473071324599709
+    },
+    "q05": {
+      "median": 333,
+      "iqr": 884,
+      "norm_iqr": 2.577259475218659
+    }
+  },
+  "human_median_norm_iqr_q01_q05": 0.806060606060606
+}

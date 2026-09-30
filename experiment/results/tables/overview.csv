@@ -1,0 +1,4 @@
+condition,exact_rate,ci_low,ci_high,n_exact,n_valid,median_norm_iqr,questions_with_iqr0,median_abs_rel_error
+base_raw,0.0402,0.0241,0.0584,20,497,1.2298,0,0.8745
+instruct_raw,0.014,0.004,0.026,7,500,5.534,0,0.9146
+instruct_chat,0.01,0.002,0.018,5,500,0.4119,0,0.7716

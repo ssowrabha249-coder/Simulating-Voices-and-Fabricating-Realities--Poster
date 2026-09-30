@@ -1,0 +1,11 @@
+== 1. Completeness and alignment by ID
+base_raw        records=500 unique=500 per_question=[50] ids_ok=True truth_aligned=True
+                valid=497/500 (99.4%)  mean tries=2.22  max tries=10
+instruct_chat   records=500 unique=500 per_question=[50] ids_ok=True truth_aligned=True
+                valid=500/500 (100.0%)  mean tries=1.00  max tries=2
+instruct_raw    records=500 unique=500 per_question=[50] ids_ok=True truth_aligned=True
+                valid=500/500 (100.0%)  mean tries=1.73  max tries=10
+
+== 2. Synthetic crowds (metric sanity)
+random crowd : mean exact rate=0.008 (expected ~0), median normalised IQR=1.00 (expected ~1)
+all-correct  : exact rate=1.000 (expected 1), max IQR=0.0 (expected 0)

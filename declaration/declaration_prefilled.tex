@@ -1,0 +1,23 @@
+% Types the known fields into the official declaration form (declaration_form_blank.pdf).
+% The signature line is left empty: print, sign by hand, scan, and replace declaration_prefilled.pdf.
+% Positions are in PostScript points (bp) from the LOWER-left corner of the A4 form (height 842 bp).
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{pdfpages}
+\setlength{\unitlength}{1bp}
+\newcommand{\formtext}[4][10]{\put(#2,#3){\fontsize{#1}{#1}\selectfont #4}}
+
+\begin{document}
+\includepdf[pages=1, fitpaper, pagecommand={\thispagestyle{empty}}, picturecommand={%
+  \formtext{166}{633}{Somashekar, Sowrabha}%                                     last name, first name
+  \formtext{166}{605}{1837734}%                                                  student ID
+  \formtext[9]{130}{435.5}{Simulating Voices: Does Instruction Tuning Make a Simulated Crowd Hyper-Accurate?}% title
+  \formtext{130}{411.5}{M.Sc. Natural Language Processing}%                       programme
+  \formtext{130}{387.5}{Dr. phil. Simon Werner}%                                           examiner
+  \formtext[8]{336}{309.5}{Research poster, NLP module}%                          module
+  \formtext[11]{73.3}{306}{\textbf{x}}%                                           tick: other examination achievement
+  \formtext{72}{248}{Trier, 30.09.2026}%                                          place, date
+}]{declaration_form_blank.pdf}
+\end{document}

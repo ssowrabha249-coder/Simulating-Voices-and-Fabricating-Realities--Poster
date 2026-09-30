@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  30%|███       | 88/290 [00:00<00:00, 875.25it/s]Loading weights:  61%|██████    | 176/290 [00:00<00:00, 867.90it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1431.87it/s]
+base_raw q01 done in 101s; valid 50/50; mean tries 1.56
+base_raw q02 done in 115s; valid 50/50; mean tries 2.06
+base_raw q03 done in 104s; valid 50/50; mean tries 1.82
+base_raw q04 done in 152s; valid 50/50; mean tries 2.60
+base_raw q05 done in 162s; valid 50/50; mean tries 2.60
+base_raw q06 done in 107s; valid 50/50; mean tries 1.76
+base_raw q07 done in 131s; valid 50/50; mean tries 2.14
+base_raw q08 done in 268s; valid 47/50; mean tries 4.42
+base_raw q09 done in 81s; valid 50/50; mean tries 1.40
+base_raw q10 done in 106s; valid 50/50; mean tries 1.84
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 168/290 [00:00<00:00, 1675.92it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2349.69it/s]

@@ -1,0 +1,15 @@
+{
+  "_source": "Aher, Arriaga & Kalai (2023), Table 3, PDF page 25 (arXiv:2208.10264v5). Question wording, true answers and human median/IQR copied from that table. Human values are only given for the first five questions.",
+  "questions": [
+    {"id": "q01", "text": "How many bones does an adult human have?", "truth": 206, "human_median": 190, "human_iqr": 108},
+    {"id": "q02", "text": "What is the melting temperature of aluminum (in degrees Celsius)?", "truth": 660, "human_median": 240, "human_iqr": 532},
+    {"id": "q03", "text": "How many degrees Fahrenheit are 100 degrees Celsius?", "truth": 212, "human_median": 200, "human_iqr": 195},
+    {"id": "q04", "text": "How many (earth) days has a year on the Mars?", "truth": 687, "human_median": 365, "human_iqr": 376},
+    {"id": "q05", "text": "What is the speed of sound in the air (in meters per second)?", "truth": 343, "human_median": 333, "human_iqr": 884},
+    {"id": "q06", "text": "How many ribs does a human have, total?", "truth": 24, "human_median": null, "human_iqr": null},
+    {"id": "q07", "text": "What is the melting temperature of gold (in degrees Celsius)?", "truth": 1064, "human_median": null, "human_iqr": null},
+    {"id": "q08", "text": "What is the speed of light in a vacuum (in meters per second)?", "truth": 299792458, "human_median": null, "human_iqr": null},
+    {"id": "q09", "text": "How many keys does a typical piano have?", "truth": 88, "human_median": null, "human_iqr": null},
+    {"id": "q10", "text": "How many chromosomes does a dog have, total?", "truth": 78, "human_median": null, "human_iqr": null}
+  ]
+}

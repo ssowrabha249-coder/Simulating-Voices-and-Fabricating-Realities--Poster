@@ -1,0 +1,32 @@
+﻿python : 
+At line:1 char:342
++ ... xperiment"; python run.py --conditions instruct_raw,instruct_chat *>  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 3495.94it/s]
+instruct_raw q01 done in 71s; valid 50/50; mean tries 1.46
+instruct_raw q02 done in 61s; valid 50/50; mean tries 1.44
+instruct_raw q03 done in 89s; valid 50/50; mean tries 2.02
+instruct_raw q04 done in 160s; valid 50/50; mean tries 1.84
+instruct_raw q05 done in 63s; valid 50/50; mean tries 1.46
+instruct_raw q06 done in 54s; valid 50/50; mean tries 1.40
+instruct_raw q07 done in 78s; valid 50/50; mean tries 1.96
+instruct_raw q08 done in 873s; valid 50/50; mean tries 2.50
+instruct_raw q09 done in 55s; valid 50/50; mean tries 1.34
+instruct_raw q10 done in 79s; valid 50/50; mean tries 1.84
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8055.98it/s]
+instruct_chat q01 done in 43s; valid 50/50; mean tries 1.00
+instruct_chat q02 done in 53s; valid 50/50; mean tries 1.00
+instruct_chat q03 done in 713s; valid 50/50; mean tries 1.00
+instruct_chat q04 done in 56s; valid 50/50; mean tries 1.00
+instruct_chat q05 done in 54s; valid 50/50; mean tries 1.02
+instruct_chat q06 done in 43s; valid 50/50; mean tries 1.00
+instruct_chat q07 done in 54s; valid 50/50; mean tries 1.00
+instruct_chat q08 done in 174s; valid 50/50; mean tries 1.00
+instruct_chat q09 done in 53s; valid 50/50; mean tries 1.00
+instruct_chat q10 done in 45s; valid 50/50; mean tries 1.00
